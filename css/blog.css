@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+/* Add a gray background color with some padding */
+
+body {
+    font-family: Arial;
+    /*padding: 20px;*/
+    background: #f1f1f1;
+}
+/* Header/Blog Title */
+
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+/* Right column */
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+/* Fake image */
+
+.fakeimg {
+    background-image: url("../img/1.jpeg");
+    width: 95%;
+    padding: 20px;
+    background-repeat: no-repeat;
+    height: 446px;
+    margin-left: 20px;
+}
+
+#d1, #button1 {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.fakeimg1 {
+    background-image: url("../img/5.jpeg");
+    background-repeat: no-repeat;
+    width: 75%;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+#d2, #button2 {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+#button2 {
+    width: 10% !important;
+}
+
+.fakeimg2 {
+    background-image: url("../img/3.jpeg");
+    background-repeat: no-repeat;
+    width: 93%;
+    /*padding: 20px;*/
+    margin-right: 20px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.fakeimg3 {
+    background-image: url("../img/4.jpeg");
+    width: 100%;
+    padding: 20px;
+}
+/*buttons*/
+
+.button {
+    background-color: #22416c;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/* Add a card effect for articles */
+/* CSS for section */
+
+.ridge {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card {
+    background-color: white;
+    /*margin: 20px;*/
+    margin-top: 20px;
+    /*margin-left: 25px;*/
+    padding-bottom: 20px;
+}
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Footer */
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+.footer-basic{
+    margin-top: 20px;
+}
+
+.banner .overlay {
+  left: 35% !important;
+}
+
+.banner .overlay h1{
+  color: white !important;
+}
+
+/*.source {
+    margin: 25px;
+}*/
+
+.dest-header{
+    padding-top: 10px;
+}

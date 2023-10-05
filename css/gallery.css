@@ -1,0 +1,150 @@
+#gallery-nim {
+    font-family: Arial;
+    margin: 0;
+    background-color: white !important;
+}
+
+/** {
+  box-sizing: border-box;
+}*/
+
+#logo {
+  width: 35% !important;
+}
+
+#gallery-nim .banner .overlay {
+  left: 22% !important;
+}
+
+#gallery-nim h2{
+  text-align: center;
+font-family: 'Times New Roman', Times, serif;
+color:brown;
+}
+
+#gallery-nim .mySlides img {
+  vertical-align: middle;
+  height: 580px;
+  max-height: 600px;
+  width: 100%;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+#gallery-nim .container {
+  position: relative;
+  margin-top: 30px;
+}
+
+/* Hide the images by default */
+#gallery-nim .mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+#gallery-nim .cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+#gallery-nim .prev,
+#gallery-nim .next {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-left: -60px;
+}
+
+#gallery-nim .next {
+  margin-right: -40px;
+}
+
+/* Position the "next button" to the right */
+#gallery-nim .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#gallery-nim .prev:hover,
+#gallery-nim .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* Number text (1/3 etc) */
+#gallery-nim .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+#gallery-nim .caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+#gallery-nim .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+#gallery-nim .column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+#gallery-nim .demo {
+  opacity: 0.6;
+}
+
+#gallery-nim .active,
+#gallery-nim .demo:hover {
+  opacity: 1;
+}
+
+/* Container holding the image and the text */
+#gallery-nim .container1 {
+position: relative;
+}
+
+/* Bottom right text */
+#gallery-nim .text-block {
+position: absolute;
+bottom: 20px;
+right: 20px;
+background-color: black;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#gallery-nim .gallery-thumb {
+  margin-top: 10px;
+}
+
+#gallery-nim .gallery-thumb img{
+  height: 104px;
+  width: 194px;
+}
+
+#gallery-nim .footer-basic{
+  margin-top: 25px;
+}
